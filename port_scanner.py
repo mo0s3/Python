@@ -7,10 +7,9 @@ def scan_ports(remote_ip):
 
     # print a little banner on which ip we are scanning
     print("-" * 60)
+    print("Please wait while {} is being scanned...".format(remote_ip))
     print("-" * 60)
-    print("Please wait while {} is being scanned".format(remote_ip))
-    print("-" * 60)
-    print("-" * 60)
+    print("")
 
     # looping through top 1024 common ports and attempting to connect to the looped ports
     try:
@@ -29,7 +28,7 @@ def scan_ports(remote_ip):
         print("Couldn't connect to server.")
         sys.exit()
 
-    print("Scan complete.")
+    print("\nScan complete.")
 
 # creating the command line args and a little help section
 if len(sys.argv) > 1:
