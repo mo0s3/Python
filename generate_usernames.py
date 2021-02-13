@@ -2,7 +2,7 @@ from random import randint
 import sys
 
 # creating variables for the path to text files and random email domains
-path_to_supporting_files = "PATH TO TXT FILE WITH NAMES: First Last"
+path_to_supporting_files = "PATH TO TXT FILE WITH NAMES: FIRST NAME ONLY"
 email_domains = [
         "@aol.com", "@gmail.com", "@yahoo.com",
         "@outlook.com", "@hotmail.com", "@icloud.com",
